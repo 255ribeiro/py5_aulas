@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "py5-test"
+version = "0.1.0"
+description = ""
+authors = ["Fernando Ferraz Ribeiro <ffribeiro@gmail.com>"]
+readme = "README.md"
+packages = [{include = "py5_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+py5 = "^0.10.0a0"
+install-jdk = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
