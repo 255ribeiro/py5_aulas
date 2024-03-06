@@ -12,6 +12,10 @@ py5 = "^0.10.0a0"
 install-jdk = "^1.1.0"
 
 
+[tool.poetry.group.dev.dependencies]
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.13"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
