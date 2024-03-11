@@ -1,13 +1,4 @@
-# instalação do Py5
-
-## Instalando a biblioteca Py5
-
-Abra um terminal(no windows:cmd) e digite:
-
-```pip install py5```
-
-
-## Instalação do interpretador python
+# Instalação do interpretador python
 
 Acesse o link [https://www.python.org/](https://www.python.org/)
 
