@@ -1,4 +1,4 @@
-site_name: Gráficos interativos com Python Plotly e Dash - Infinity School
+site_name: Introdução à programaçãoem Python com o py5
 use_directory_urls: false
 
 copyright: Copyright &copy; 2022 Fernando Ferraz Ribeiro
@@ -35,9 +35,9 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-site_url: "https://255ribeiro.github.io/infinity_ws_plotly_dash/"
-repo_url: "https://github.com/255ribeiro/infinity_ws_plotly_dash"
-repo_name: "255ribeiro/infinity_ws_plotly_dash" 
+site_url: "https://255ribeiro.github.io/py5_aulas/"
+repo_url: "https://github.com/255ribeiro/py5_aulas"
+repo_name: "255ribeiro/py5_aulas" 
 
 nav:
   - Home: index.md
@@ -59,7 +59,7 @@ plugins:
       include: ["*.py", "*.ipynb"]
       #ignore: ["./flask/hello_flask.ipynb"]
       execute: True
-      execute_ignore: "./flask_dash/*/*"
+      execute_ignore: ["./flask_dash/*/*"]
       include_source: True
       
 

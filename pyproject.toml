@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "py5-aulas"
+name = "py5_aulas"
 version = "0.1.0"
 description = ""
 authors = ["Fernando Ferraz Ribeiro <ffribeiro@gmail.com>"]
