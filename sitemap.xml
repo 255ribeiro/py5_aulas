@@ -6,6 +6,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://255ribeiro.github.io/py5_aulas/basic/data_types.html</loc>
+         <lastmod>2024-03-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/py5_aulas/basic/variaveis_e_operadores.html</loc>
+         <lastmod>2024-03-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://255ribeiro.github.io/py5_aulas/instala/install.html</loc>
          <lastmod>2024-03-11</lastmod>
          <changefreq>daily</changefreq>
