@@ -1,4 +1,4 @@
-site_name: Introdução à programaçãoem Python com o py5
+site_name: Introdução à programação em Python com o py5
 use_directory_urls: false
 
 copyright: Copyright &copy; 2022 Fernando Ferraz Ribeiro
@@ -41,6 +41,7 @@ repo_name: "255ribeiro/py5_aulas"
 
 nav:
   - Home: index.md
+  - instalação : ./instala/install.md
 
 markdown_extensions:
   - admonition

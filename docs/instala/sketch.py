@@ -15,8 +15,9 @@ import numpy as np
 
 def setup():
     py5.size(500, 500)
-    # py5.surface.setTitle("Hello World!");
+    
     py5.window_resizable(True)
+    py5.window_title("hello world")
     py5.background(196)
     
     py5.color_mode(py5.HSB, 360, 100, 100)
