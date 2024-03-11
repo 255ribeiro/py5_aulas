@@ -1,15 +1,17 @@
 [tool.poetry]
-name = "py5-test"
+name = "py5-aulas"
 version = "0.1.0"
 description = ""
 authors = ["Fernando Ferraz Ribeiro <ffribeiro@gmail.com>"]
 readme = "README.md"
-packages = [{include = "py5_test"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.12"
 py5 = "^0.10.0a0"
-install-jdk = "^1.1.0"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+pandas = "^2.2.1"
+
 
 
 [tool.poetry.group.dev.dependencies]
@@ -19,4 +21,3 @@ mkdocs-material = "^9.5.13"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
