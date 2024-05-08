@@ -20,8 +20,8 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: red
-      accent: deep orange
+      primary: teal
+      accent: light blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -29,8 +29,8 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: red
-      accent: yellow
+      primary: teal
+      accent: light blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -41,7 +41,12 @@ repo_name: "255ribeiro/py5_aulas"
 
 nav:
   - Home: index.md
-  - instalação : ./instala/install.md
+  - instalação :
+      - Instalação do interpretador Cpython: ./instala/install.md
+      - Instalação do Py5: ./instala/install_py5.md
+  - Python Básico:
+      - Operações matemáticas no shell: ./basic/variaveis_e_operadores.ipynb
+      - tipos de dados: ./basic/data_types.md
 
 markdown_extensions:
   - admonition
@@ -59,7 +64,7 @@ plugins:
       kernel_name:
       include: ["*.py", "*.ipynb"]
       #ignore: ["./flask/hello_flask.ipynb"]
-      execute: True
+      execute: False
       execute_ignore: ["./flask_dash/*/*"]
       include_source: True
       
